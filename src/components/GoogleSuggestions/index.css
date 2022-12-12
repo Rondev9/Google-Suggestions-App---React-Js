@@ -1,0 +1,42 @@
+.GoogleSearchSuggestionsAppContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.googleImage {
+  width: 500px;
+}
+.searchSuggestionsListContainer {
+  display: flex;
+  padding-left: 2px;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 600px;
+  border-radius: 20px;
+  list-style-type: none;
+}
+.searchBoxContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 5px;
+  margin-left: 0px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.searchBar {
+  border: 0px;
+  font-family: 'Roboto';
+  width: 100%;
+  outline: none;
+  color: #64748b;
+}
